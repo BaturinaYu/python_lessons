@@ -1,4 +1,4 @@
-with open("predmet.txt", 'r', encoding="utf-8") as file56:
+with open("predmet.txt", 'r') as file56:
     rez_dict = {}
     for stroka in file56:
         if stroka and stroka.replace(' ', '') != '\n':
