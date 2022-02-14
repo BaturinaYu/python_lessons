@@ -10,5 +10,5 @@ print(f'Репозитории пользователя {username} на github.c
 for i, el in enumerate(repos_dict):
     print(i+1, el['name'])
 
-with open('data.txt', 'w') as outfile:
+with open('data.json', 'w') as outfile:
     json.dump(repos_dict, outfile, indent=4)
